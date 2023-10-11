@@ -15,4 +15,5 @@ ggplot(HB_Aleeza, aes(x = x, y = y, color = letter)) +
         axis.title.x = element_text(face = "bold"), 
         axis.title.y = element_text(face = "bold"))
 
+###Perhaps you'll want to adjust the plot size to better see the distribution of the data
 
