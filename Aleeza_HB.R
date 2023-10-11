@@ -2,7 +2,7 @@ library(tidyverse)
 library(ggplot2)
 library(readr)
 
-HB_Aleeza <- readxl::read_xlsx("/Users/javiersanjuan/Desktop/Aleeza_name.xlsx")
+HB_Aleeza <- readxl::read_xlsx("/Users/javiersanjuan/Desktop/Data_set.xlsx")
   
 ggplot(HB_Aleeza, aes(x = x, y = y, color = letter)) + 
   geom_point(size = 3) + 
